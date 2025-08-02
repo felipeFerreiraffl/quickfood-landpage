@@ -1,0 +1,32 @@
+/* Importação da fonte */
+@font-face {
+  font-family: "Gilroy";
+  src: url("../assets/fonts/Gilroy.ttf") format("tff");
+}
+
+:root {
+  /* ---------- Tipografia ---------- */
+  --font-h1: 700 60px "Gilroy", sans-serif;
+  --font-h2: 700 48px "Gilroy", sans-serif;
+  --font-h3: 700 28px "Gilroy", sans-serif;
+  --font-body: 500 18px "Gilroy", sans-serif;
+  --font-button: 600 18px "Gilroy", sans-serif;
+
+  /* ---------- Cores ---------- */
+  --color-grey: #000000;
+  --color-primary: #00a000;
+  --color-black: #000001;
+  --color-grey-2: #999999;
+  --color-white: #ffffff;
+  --color-bg-overlay: #fafafa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background: none;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  box-sizing: border-box;
+}
