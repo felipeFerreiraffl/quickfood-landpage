@@ -1,16 +1,33 @@
 /* Importação da fonte */
 @font-face {
-  font-family: "Gilroy";
-  src: url("../assets/fonts/Gilroy.ttf") format("tff");
+  font-family: "Gilroy-Bold", sans-serif;
+  src: url("../assets/fonts/Gilroy-Bold.ttf") format("ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Gilroy-Semibold", sans-serif;
+  src: url("../assets/fonts/Gilroy-SemiBold.ttf") format("ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Gilroy-Medium", sans-serif;
+  src: url("../assets/fonts/Gilroy-Medium.ttf") format("ttf");
+  font-weight: 500;
 }
 
 :root {
   /* ---------- Tipografia ---------- */
-  --font-h1: 700 60px "Gilroy", sans-serif;
-  --font-h2: 700 48px "Gilroy", sans-serif;
-  --font-h3: 700 28px "Gilroy", sans-serif;
-  --font-body: 500 18px "Gilroy", sans-serif;
-  --font-button: 600 18px "Gilroy", sans-serif;
+  --font-family-bold: "Gilroy-Bold", sans-serif;
+  --font-family-semibold: "Gilroy-Semibold", sans-serif;
+  --font-family-medium: "Gilroy-Medium", sans-serif;
+
+  --font-h1: 700 60px var(--font-family-bold);
+  --font-h2: 700 48px var(--font-family-bold);
+  --font-h3: 700 28px var(--font-family-bold);
+  --font-body: 500 18px var(--font-family-medium);
+  --font-button: 600 18px var(--font-family-semibold);
 
   /* ---------- Cores ---------- */
   --color-grey: #000000;
@@ -29,4 +46,26 @@
   list-style: none;
   border: none;
   box-sizing: border-box;
+}
+
+.btn {
+  font: var(--font-button);
+  padding: 16px 32px;
+  border-radius: 10px;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+}
+
+.btn-primary * {
+  color: white;
+}
+
+.btn-secondary {
+  border: 1px solid var(--color-primary);
+}
+
+.btn-secondary * {
+  color: var(--color-primary);
 }
