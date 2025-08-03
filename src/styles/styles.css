@@ -19,12 +19,37 @@
 }
 
 .header-nav ul li a {
+  font-family: var(--font-family-medium);
   font-size: 16px;
-  font-weight: 500;
   color: var(--color-black);
+  opacity: 0.6;
   transition: 0.3s ease;
 }
 
 .header-nav ul li a:hover {
   color: var(--color-primary);
+  opacity: 1;
+}
+
+.header-nav ul li .active {
+  color: var(--color-primary);
+  opacity: 1;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.header-func-icons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header-func-icons .icon {
+  width: 40px;
+  aspect-ratio: 1 / 1;
+  cursor: pointer;
 }

@@ -1,19 +1,19 @@
 /* Importação da fonte */
 @font-face {
-  font-family: "Gilroy-Bold", sans-serif;
-  src: url("../assets/fonts/Gilroy-Bold.ttf") format("ttf");
+  font-family: "Gilroy-Bold";
+  src: url("../assets/fonts/Gilroy-Bold.ttf") format("truetype");
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "Gilroy-Semibold", sans-serif;
-  src: url("../assets/fonts/Gilroy-SemiBold.ttf") format("ttf");
+  font-family: "Gilroy-Semibold";
+  src: url("../assets/fonts/Gilroy-SemiBold.ttf") format("truetype");
   font-weight: 600;
 }
 
 @font-face {
-  font-family: "Gilroy-Medium", sans-serif;
-  src: url("../assets/fonts/Gilroy-Medium.ttf") format("ttf");
+  font-family: "Gilroy-Medium";
+  src: url("../assets/fonts/Gilroy-Medium.ttf") format("truetype");
   font-weight: 500;
 }
 
@@ -56,16 +56,16 @@
 
 .btn-primary {
   background-color: var(--color-primary);
-}
-
-.btn-primary * {
   color: white;
 }
 
 .btn-secondary {
   border: 1px solid var(--color-primary);
+  color: var(--color-primary);
+  transition: 0.3s ease;
 }
 
-.btn-secondary * {
-  color: var(--color-primary);
+.btn-secondary:hover {
+  background-color: var(--color-primary);
+  color: white;
 }
