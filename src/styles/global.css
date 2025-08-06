@@ -48,6 +48,10 @@
   box-sizing: border-box;
 }
 
+body {
+  padding: 0 100px;
+}
+
 .btn {
   font: var(--font-button);
   padding: 16px 32px;
@@ -57,6 +61,11 @@
 .btn-primary {
   background-color: var(--color-primary);
   color: white;
+  transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+  filter: brightness(1.1);
 }
 
 .btn-secondary {
