@@ -99,3 +99,34 @@
   width: 100%;
   height: auto;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+.choose-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+.choose-us .title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+}
+
+.choose-us .title-container h2 {
+  font-weight: 800;
+}
+
+.choose-us .title-container p {
+  font-family: var(--font-family-medium);
+  font-size: 18px;
+  color: var(--color-grey-2);
+}

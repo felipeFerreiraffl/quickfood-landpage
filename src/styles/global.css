@@ -78,3 +78,9 @@ body {
   background-color: var(--color-primary);
   color: white;
 }
+
+.section-title {
+  font: var(--font-h2);
+  color: var(--color-black);
+  text-align: center;
+}
