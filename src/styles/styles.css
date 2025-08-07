@@ -105,6 +105,7 @@ main {
   flex-direction: column;
   align-items: center;
   gap: 60px;
+  margin: 102px 0 60px 0;
 }
 
 .choose-us {
@@ -129,4 +130,39 @@ main {
   font-family: var(--font-family-medium);
   font-size: 18px;
   color: var(--color-grey-2);
+}
+
+.reasons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.reasons .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+  width: 400px;
+}
+
+.reasons .card .main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.reasons .card .main-content img {
+  width: 216px;
+  aspect-ratio: 1 / 1;
+}
+
+.reasons .card p {
+  font-family: var(--font-family-medium);
+  font-size: 18px;
+  color: var(--color-black);
+  opacity: 0.6;
+  width: 70%;
 }
