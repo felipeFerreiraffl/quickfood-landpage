@@ -90,3 +90,10 @@ body {
   color: var(--color-black);
   text-align: center;
 }
+
+.paragraph {
+  font-family: var(--font-family-medium);
+  font-size: 18px;
+  color: var(--color-black);
+  opacity: 0.6;
+}

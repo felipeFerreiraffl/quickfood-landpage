@@ -113,6 +113,7 @@ main {
   flex-direction: column;
   align-items: center;
   gap: 60px;
+  padding: 100px 0;
 }
 
 .choose-us .title-container {
@@ -160,9 +161,19 @@ main {
 }
 
 .reasons .card p {
-  font-family: var(--font-family-medium);
-  font-size: 18px;
-  color: var(--color-black);
-  opacity: 0.6;
   width: 70%;
+}
+
+.stats-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.stats-container .stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 400px;
 }
