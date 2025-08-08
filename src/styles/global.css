@@ -52,6 +52,10 @@ body {
   padding: 0 100px;
 }
 
+.section {
+  padding: 100px 0;
+}
+
 .btn {
   font: var(--font-button);
   padding: 16px 32px;
@@ -90,6 +94,13 @@ body {
 .section-title-2 {
   font: var(--font-h3);
   color: var(--color-black);
+  text-align: center;
+}
+
+.section-subtitle {
+  font-family: var(--font-family-medium);
+  font-size: 18px;
+  color: var(--color-grey-2);
   text-align: center;
 }
 
