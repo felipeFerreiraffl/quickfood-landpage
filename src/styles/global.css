@@ -48,12 +48,8 @@
   box-sizing: border-box;
 }
 
-body {
-  padding: 0 100px;
-}
-
 .section {
-  padding: 100px 0;
+  padding: 100px 100px;
 }
 
 .btn {
