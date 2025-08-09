@@ -332,3 +332,97 @@ main {
 .email-submit input::placeholder {
   color: var(--color-black);
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  background-color: var(--color-primary);
+}
+
+footer .main-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+footer .main-content .contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 292px;
+}
+
+footer .main-content .contacts > img {
+  width: 141px;
+  height: 33px;
+}
+
+footer .main-content .contacts .socials {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+footer .main-content .contacts .socials .icon {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  aspect-ratio: 1 / 1;
+  border: 2px solid var(--color-white);
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+footer .main-content .contacts .socials .icon:hover {
+  background-color: rgba(256, 256, 256, 0.6);
+}
+
+footer .main-content .navigation {
+  display: flex;
+  gap: 40px;
+}
+
+footer .main-content .navigation div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  color: var(--color-white);
+  width: 281px;
+}
+
+footer .main-content .navigation div h2 {
+  font-family: var(--font-family-extrabold);
+  font-size: 18px;
+}
+
+footer .main-content .navigation div nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+footer .main-content .navigation div nav ul li a {
+  font-family: var(--font-family-medium);
+  font-size: 18px;
+  color: var(--color-white);
+  transition: 0.3s ease;
+}
+
+footer .main-content .navigation div nav ul li a:hover {
+  filter: brightness(0.8);
+}
+
+footer span {
+  width: 100%;
+  font-family: var(--font-family-medium);
+  font-size: 20px;
+  text-align: center;
+  color: var(--color-white);
+  border-top: 1px solid var(--color-white);
+  padding-top: 16px;
+}
